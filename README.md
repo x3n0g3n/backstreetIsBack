@@ -8,9 +8,11 @@ The template engine for this Node.js RESTful API application is Handlebars.js, t
 A strong, secure, and dependable RESTful API that can be utilized by a variety of web and mobile applications was the driving force behind the development of this service! The program adheres to best practices and industry standards and offers developers a flexible design that makes it simple to integrate it into their applications.
 
 ## Design Process
-The application was designed using the Model-View-Controller (MVC) paradigm. The model represents the data structure and business logic, while the view represents the user interface, and the controller handles the communication between the model and view. The application was also designed to be responsive and interactive to provide an optimal user experience.
+
+The Model-View-Controller (MVC) design approach was used to create the application. The model represents the data structure and business logic, and the view represents the user interface. The controller controls communication between these two components. The application was meant to be responsive and entertaining to provide users the best experience possible.
 
 ## Technologies Used
+
 ```md
 The following technologies were used in the development of this application:
 
@@ -30,6 +32,7 @@ The application includes both GET and POST routes for retrieving and adding new 
 Some possible future developments for this application include adding more features and functionality, improving the UI/UX, optimizing performance, and expanding support for more database management systems.
 
 ## Installation
+```md
 To install the application, follow these steps:
 
 Clone the repository to your local machine
@@ -45,3 +48,5 @@ Set up your environment variables in your Heroku app
 Deploy your app using Git push
 Conclusion
 This Node.js RESTful API application provides a flexible and scalable architecture that can be used for various web and mobile applications. The application adheres to best practices and industry standards, providing developers with a reliable and secure way to store and retrieve data.
+```
+## License
