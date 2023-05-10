@@ -1,7 +1,7 @@
 
 ## project 2: The Reunion Tour
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![Alt text](assets/joey-fatone-nsync-star-radio-music-awards-aladdin-hotel-casino-las-vegas-oct-paul-smith-featureflash-36733789.jpg)
+
 The template engine for this Node.js RESTful API application is Handlebars.js, the database is MySQL, and Sequelize ORM is used for data modeling. The application provides express-session and cookie-based authentication, as well as GET and POST routes for obtaining and adding new data. Environment variables are used to protect sensitive data and API keys.
 
 ## Motivation
