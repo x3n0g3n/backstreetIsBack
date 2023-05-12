@@ -1,2 +1,4 @@
-DROP DATABASE IF EXISTS user_db;
-CREATE DATABASE user_db;
+
+DROP DATABASE IF EXISTS bucket_db;
+CREATE DATABASE bucket_db;
+

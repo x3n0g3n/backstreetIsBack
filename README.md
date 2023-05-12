@@ -1,4 +1,3 @@
-
 ## project 2: Bucket-Bucket
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -51,4 +50,3 @@ Conclusion
 This Node.js RESTful API application provides a flexible and scalable architecture that can be used for various web and mobile applications. The application adheres to best practices and industry standards, providing developers with a reliable and secure way to store and retrieve data.
 ```
 ## License
-
