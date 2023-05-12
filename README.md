@@ -1,8 +1,8 @@
+## project 2: Bucket-Bucket
 
-## project 2: The Reunion Tour
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![Alt text](assets/joey-fatone-nsync-star-radio-music-awards-aladdin-hotel-casino-las-vegas-oct-paul-smith-featureflash-36733789.jpg)
-The template engine for this Node.js RESTful API application is Handlebars.js, the database is MySQL, and Sequelize ORM is used for data modeling. The application provides express-session and cookie-based authentication, as well as GET and POST routes for obtaining and adding new data. Environment variables are used to protect sensitive data and API keys.
+
+The template engine for this Bucket-Bucket Node.js RESTful API application is Handlebars.js, the database is MySQL, and Sequelize ORM is used for data modeling. The application provides express-session and cookie-based authentication, as well as GET and POST routes for obtaining and adding new data. Environment variables are used to protect sensitive data and API keys.
 
 ## Motivation
 A strong, secure, and dependable RESTful API that can be utilized by a variety of web and mobile applications was the driving force behind the development of this service! The program adheres to best practices and industry standards and offers developers a flexible design that makes it simple to integrate it into their applications.
@@ -16,14 +16,14 @@ The Model-View-Controller (MVC) design approach was used to create the applicati
 ```md
 The following technologies were used in the development of this application:
 
-Node.js: An open-source, cross-platform JavaScript runtime environment that allows developers to build scalable and high-performance applications.
-Express.js: A flexible and lightweight Node.js web application framework that provides a robust set of features for web and mobile applications.
-Handlebars.js: A popular templating engine that allows developers to create dynamic HTML templates easily.
-MySQL: An open-source relational database management system that provides a scalable and reliable way to store and retrieve data.
-Sequelize ORM: A popular Node.js ORM that allows developers to interact with relational databases using JavaScript.
-express-session: A middleware that provides session support for Express.js applications.
-cookies: A middleware that provides cookie support for Express.js applications.
-dotenv: A zero-dependency module that loads environment variables from a .env file into process.env.
+-Node.js: An open-source, cross-platform JavaScript runtime environment that allows developers to build scalable and high-performance applications.
+-Express.js: A flexible and lightweight Node.js web application framework that provides a robust set of features for web and mobile applications.
+-Handlebars.js: A popular templating engine that allows developers to create dynamic HTML templates easily.
+-MySQL: An open-source relational database management system that provides a scalable and reliable way to store and retrieve data.
+-Sequelize ORM: A popular Node.js ORM that allows developers to interact with relational databases using JavaScript.
+-express-session: A middleware that provides session support for Express.js applications.
+-cookies: A middleware that provides cookie support for Express.js applications.
+-dotenv: A zero-dependency module that loads environment variables from a .env file into process.env.
 ```
 ## Demonstration
 The application includes both GET and POST routes for retrieving and adding new data. The application also includes authentication using express-session and cookies, and API keys and sensitive information are protected with environment variables. The application is also responsive and interactive to provide an optimal user experience.
@@ -50,4 +50,3 @@ Conclusion
 This Node.js RESTful API application provides a flexible and scalable architecture that can be used for various web and mobile applications. The application adheres to best practices and industry standards, providing developers with a reliable and secure way to store and retrieve data.
 ```
 ## License
-
