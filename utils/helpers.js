@@ -1,4 +1,5 @@
 module.exports = {
+
     get_emoji: () => {
       const randomNum = Math.random();
       let book = "📗";
@@ -12,3 +13,4 @@ module.exports = {
       return `<span for="img" aria-label="book">${book}</span>`;
     },
   };
+
