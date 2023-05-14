@@ -11,6 +11,7 @@ if (process.env.JAWSDB_URL) {
     "root",
     "havefun",
 
+
     {
       host: 'localhost',
       dialect: 'mysql',
