@@ -1,5 +1,14 @@
+const User = require('./User');
+const Reviews = require('./Reviews');
+const { startCase } = require('lodash');
 
-const User = require('./user');
+User.hasMany(Reviews, {
+  foreignKey: 'user_id',
+  onDelete: 'CASCADE'
+});
 
-module.exports = { User };
+Reviews.belongsTo(User, {
+  foreignKey: 'user_id'
+});
 
+module.exports = { User, Reviews };

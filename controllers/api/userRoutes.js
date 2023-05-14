@@ -1,6 +1,15 @@
 const router = require('express').Router();
 const { User } = require('../../models');
 
+//get all user route to test api in insomina
+router.get('/', async (req,res) =>{
+  try{
+    const userData = await user.findAll();
+  } catch (err){
+    res.status(500).json(err)
+  }
+});
+
 router.post('/login', async (req, res) => {
   try {
     // Find the user who matches the posted e-mail address
@@ -13,7 +22,7 @@ router.post('/login', async (req, res) => {
       return;
     }
 
-    // Verify the posted password with the password store in the database
+    // Verify the posted password with the password stored in the database
     const validPassword = await userData.checkPassword(req.body.password);
 
     if (!validPassword) {
@@ -31,8 +40,8 @@ router.post('/login', async (req, res) => {
       res.json({ user: userData, message: 'You are now logged in!' });
     });
 
-  } catch (err) {
-    res.status(400).json(err);
+  } catch (error) {
+    res.status(400).json(error);
   }
 });
 
