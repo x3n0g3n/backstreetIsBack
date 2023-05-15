@@ -4,7 +4,7 @@ const { User } = require('../../models');
 //get all user route to test api in insomina
 router.get('/', async (req,res) =>{
   try{
-    const userData = await user.findAll();
+    const userData = await User.findAll();
   } catch (err){
     res.status(500).json(err)
   }

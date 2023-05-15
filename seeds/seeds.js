@@ -11,12 +11,12 @@ const seedDatabase = async () => {
     returning: true,
   })
 
-  for (const Reviews of ReveiwsData) {
-    await Reviews.create({
-      ...Reviews,
-      user_id: User[Math.floor(Math.random() * User.length)].id,
-    });
-  }
+  // for (const Reviews of ReveiwsData) {
+  //   await Reviews.create({
+  //     ...Reviews,
+  //     user_id: User[Math.floor(Math.random() * User.length)].id,
+  //   });
+  // }
 
   process.exit(0);
 };
