@@ -2,16 +2,11 @@ const router = require('express').Router();
 const { User } = require('../../models');
 
 //get all user route to test api in insomina
-<<<<<<< HEAD
-router.get('/', async (req,res) =>{
-  try{
-    const userData = await User.findAll();
-  } catch (err){
-    res.status(500).json(err)
-=======
 router.get('/', async (req, res)  => {
   try {
-    const userData = await User.findAll();
+    const userData = await User.findAll()
+  
+    res.status(200).json(userData);
   } catch (err) {
     res.status(500).json(err);
   }
@@ -28,7 +23,6 @@ router.post("/", async (req, res) => {
     req.status(200).json(userData);
   });
   } catch (error) {
->>>>>>> 1adf5e47c4667458febed9faacf614ff3c63a6df
   }
 });
 
