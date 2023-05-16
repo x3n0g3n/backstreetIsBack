@@ -63,6 +63,36 @@ router.post('/login', async (req, res) => {
   }
 });
 
+router.post('/register', async (req, res) => {
+  try {
+    // Find the user who matches the posted e-mail address
+    const userData = await User.findOne({ where: { email: req.body.email } });
+
+// find a way to add the jurrasic guy for failed log in attempts
+
+    if (userData) {
+      res
+        .status(400)
+        .json({ message: 'user already exists' });
+      return;
+    }
+  user.create({
+    email: req.body.email,
+    password: req.body.password
+  }).then(userData=>{
+    req.session.save(() => {
+      req.session.user_id = userData.id;
+      req.session.logged_in = true;
+      res.json({ user: userData, message: 'You are now logged in!' });
+    });
+  })
+
+  } catch (error) {
+    res.status(400).json(error);
+  }
+});
+
+
 // user logout
 router.post('/logout', (req, res) => {
   if (req.session.logged_in) {
