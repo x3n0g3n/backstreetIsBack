@@ -11,15 +11,6 @@ const seedDatabase = async () => {
     returning: true,
   })
 
-  // // for (const Reviews of ReveiwsData) {
-  //   console.log(User[1])
-  //   await Reviews.create({
-  //     ...Reviews,
-  //     user_id: User[1].id,
-  //   //  user_id: User[Math.floor(Math.random() * User.length)].id,
-  //   });
-  // }
-
   process.exit(0);
 };
 
