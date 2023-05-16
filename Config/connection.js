@@ -9,7 +9,7 @@ if (process.env.JAWSDB_URL) {
   sequelize = new Sequelize(
     "bucket_db",
     "root",
-    "havefun",
+    "password",
 
 
     {
