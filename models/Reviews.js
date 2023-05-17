@@ -28,13 +28,12 @@ Reviews.init(
     review: {
       type: DataTypes.STRING,
       allowNull: false,
-      defaultValue: ('no review submitted'),
+      defaultValue: 'no review submitted',
     },
-    rating: { 
-        type: DataTypes.ENUM('terrible','decent','good','wonderful','amazing'),
-       allowNull:false,
+    rating: {
+      type: DataTypes.ENUM('terrible', 'decent', 'good', 'wonderful', 'amazing'),
+      allowNull: false,
     },
-
   },
   {
     sequelize,
@@ -44,5 +43,4 @@ Reviews.init(
     modelName: 'Reviews',
   }
 );
-
 module.exports = Reviews;

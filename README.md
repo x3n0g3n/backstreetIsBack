@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-The template engine for this Bucket-Bucket Node.js RESTful API application is Handlebars.js, the database is MySQL, and Sequelize ORM is used for data modeling. The application provides express-session and cookie-based authentication, as well as GET and POST routes for obtaining and adding new data. Environment variables are used to protect sensitive data and API keys.
+The template engine for this Bucket-Bucket Node.js RESTful API application with Handlebars.js, the database is MySQL, and Sequelize ORM is used for data modeling and in this case, creating a Bucket list with the ability to review topics on ones list. The application provides express-session and cookie-based authentication, as well as GET and POST routes for obtaining and adding new data. Environment variables are used to protect sensitive data and API keys.
 
 ## Motivation
 A strong, secure, and dependable RESTful API that can be utilized by a variety of web and mobile applications was the driving force behind the development of this service! The program adheres to best practices and industry standards and offers developers a flexible design that makes it simple to integrate it into their applications.
