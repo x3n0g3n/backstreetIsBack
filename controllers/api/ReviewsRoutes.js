@@ -19,17 +19,12 @@ router.post('/', withAuth, async (req,res) => {
             ...req.body,
             user_id: req.session.user_id
         })
-
         res.status(200).json(newReview);
     } catch (err) {
         res.status(500).json(err);
     }
 });
-
 // edit review (needs to be logged on)
-
-
-
 // delete review (needs to be logged on)
 
 router.delete('/:id', withAuth, async (req, res) => {
