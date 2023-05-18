@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+img {
+    height: 500px;
+    width: 700px;
+    margin-left: 14%;
+}
+
+.user {
+    margin-left: 28%;
+}
