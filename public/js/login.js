@@ -27,10 +27,29 @@ const loginFormHandler = async (event) => {
     }
   };
 
+  const redirectRegister = async (event) => {
+
+    // Stop the browser from submitting the form so we can do so with JavaScript
+    event.preventDefault();
+  
+    const response = await fetch('/register')
+    
+      if (response.ok) {
+        document.location.replace('/register');
+      } else {
+        alert('Failed to switch');
+      }
+    };
+  
+
   
   document
     .querySelector('.login-form')
     .addEventListener('submit', loginFormHandler);
+
+    document
+    .querySelector('#create_user') //class register-form
+    .addEventListener('click', redirectRegister);
 
 
 

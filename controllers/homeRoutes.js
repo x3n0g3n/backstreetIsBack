@@ -42,5 +42,24 @@ router.get('/register', (req, res) => {
   res.render('register');
 });
 
+router.post('/register', async (req, res) => {
+
+  try {
+    const newUser = req.body;
+    // hash the password from 'req.body' and save to newUser
+    // create the newUser with the hashed password and save to DB salted 10 times
+    newUser.password = await bcrypt.hash(req.body.password, 10);
+
+    const userData = await User.create(newUser);
+    console.log(userData);
+
+    res.status(200).json(userData);
+    //200 means OK
+  } catch (err) {
+    res.status(400).json(err);
+    //400 means bad request
+  }
+});
+
 
 module.exports = router;
