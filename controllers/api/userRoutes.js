@@ -76,12 +76,10 @@ router.post('/register', async (req, res) => {
 // find a way to add the jurrasic guy for failed log in attempts
 
     if (userData) {
-      res
-        .status(400)
-        .json({ message: 'user already exists' });
+      res.status(400).json({ message: 'user already exists' });
       return;
     }
-  user.create({
+  User.create({
     email: req.body.email,
     password: req.body.password
   }).then(userData=>{
