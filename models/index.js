@@ -1,4 +1,4 @@
-const User = require('./user');
+const User = require('./User');
 const Reviews = require('./Reviews');
 const { startCase } = require('lodash');
 

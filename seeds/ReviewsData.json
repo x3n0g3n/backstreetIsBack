@@ -3,25 +3,25 @@
     {
         "activity": "Cave exploration",
         "location": " Carlsbad Caverns National Park",
-        "review": "This was highly informative, the destination was beautiful. The cavern was much larger than I imagined. ",
+        "review": "This was highly informative, the destination was beautiful. T",
         "rating": "wonderful"
     },
     {
         "activity":"Aura Borealis",
         "location":" Bettles, Alaska",
-        "review": " unfortunitly it was so cloudy when we visited we only seen the lights 2 out of our 6 day stay, the people were nice but it seems like such a waste to got for something and only get a taste I was disapointed to say the least, they didnt even offer us a refund or discount. ",
+        "review": " unfortunitly it was so cloudy when we visited we only seen ",
         "rating": "decent"
     },
     {
         "activity": "bungeejumping",
         "location": "Grand Canyon, Arizona ",
-        "review": " So exhilerating, my heart was about to jump out of my chest the people were real paticent with me as I had a hard time commiting to the jump, but I hope everyone gets to experices this at least once. The wait was extremely long and it was very hot but I enjoyed this so much will go again soon.",
+        "review": " So exhilerating, my heart was about to jump out of my chest the people",
         "rating":"wonderful"
     },
     {
         "activity":"scuba diving",
         "location":"Ft. Lauderdale, Florida",
-        "review": "Cannot describe in words, the water was warm the creatures were beautiful, it was thrilling and breathtaking. The instructors were well informed and just so great. so magical I felt like I was in a disney movie. Im going to by my own gear I think I found a new hobbie ",
+        "review": "Cannot describe in words, the water was warm the creatures",
         "rating": "amazing"
     }
 ]
