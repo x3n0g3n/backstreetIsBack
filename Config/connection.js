@@ -9,12 +9,6 @@ if (process.env.JAWSDB_URL) {
   sequelize = new Sequelize(
     "bucket_db",
     "root",
-<<<<<<< HEAD
-    "Thumper1",
-=======
-    "havefun",
->>>>>>> 251b4dd96d3243a4f736b92e8df4f5ca869037ec
-
 
     {
       host: 'localhost',
