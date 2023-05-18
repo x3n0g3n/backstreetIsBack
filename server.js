@@ -28,7 +28,7 @@ const sess = {
 
 // Add express-session and store as Express.js middleware
 app.use(session(sess));
-
+//this does things and stuff. 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
