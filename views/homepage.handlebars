@@ -1,57 +1,63 @@
 {{#each users as |user| }}
-<div class="row align-center mb-5">
-  <div class="col-md-6">
-    <h2>{{{get_emoji}}} {{user.name}}</h2>
+<div class="user">
+  <div>
+    <h2 class="userName">{{{get_emoji}}} {{user.name}}</h2>
   </div>
-  <div class="col-md-6">
-    <h3><a href="mailto:{{user.email}}">{{user.email}}</a></h3>
+  <div>
+    <h3 class=""><a href="mailto:{{user.email}}">{{user.email}}</a></h3>
   </div>
 </div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-2 col-xs-1">
-      <img src="images/alaska-northern-lights.jpg">
+<div class="container-fluid row">
+  
+    <div>
+      <img src="images/alaska-northern-lights.jpg" alt="northern lights">
     </div>
-        <div class="col-md-2 col-xs-1">
-            <img src="images/appalachian trail.jpg">
 
+    <div>
+      <img src="images/appalachian trail.jpg" alt="appalachian trail">
+    </div>
+  
+    <div>
+      <img src="images/bungee jump grand canyon.jpg" alt="bungee jumping">
+    </div>
+
+    <div>
+      <img src="images/cave exploration new mexico.jpg" alt="cave exploration">
+    </div>
+  
+    <div>
+      <img src="images/lava tubes hawaii.jpeg" alt="lava tubes">
+    </div>
+
+{{!-- not displaying  --}}
+    <div>
+        <img src="./images for project 2/scubaSteve.jpg" alt="scuba diving">
+    </div>
+  
+    <div>
+      <img src="images/white water rafting arkansas.png" alt="white water rafting">
+    </div>
+
+    <div>
+      <img src="images/zipline.jpg" alt="zip line">
+    </div>
+  
+    <div>
+      <img src="images/mountain climbing mt whitney.png" alt="climbing mt whitney">
+    </div>
+
+{{!-- not displaying  --}}
+    <div>
+      <img src="../public/images/paragliding, colordao.png" alt="paragliding">
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-2 col-xs-1">
-      <img src="images/bungee jump grand canyon.jpg">
-    </div>
-        <div class="col-md-2 col-xs-1">
-            <img src="images/cave exploration new mexico.jpg">
 
-    </div>
+  <div class="form-group review">
+    <label for="review-register">Add Review</label>
+    <input class="form-input" type="review" id="review-register" />
   </div>
-  <div class="row">
-    <div class="col-md-2 col-xs-1">
-      <img src="images/lava tubes hawaii.jpeg">
-    </div>
-        <div class="col-md-2 col-xs-1">
-            <img src="images/scuba diving, florida.jpg">
-
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-2 col-xs-1">
-      <img src="images/white water rafting arkansas.png">
-    </div>
-        <div class="col-md-2 col-xs-1">
-            <img src="images/zipline.jpg">
-
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-2 col-xs-1">
-      <img src="images/mountain climbing mt whitney.png">
-    </div>
-        <div class="col-md-2 col-xs-1">
-            <img src="images/paragliding, colorado.png">
-
-    </div>
+  <div class="form-group reviewBtn">
+    <button class="btn btn-primary" type="submit">submit</button>
   </div>
 
 
