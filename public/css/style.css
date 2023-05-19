@@ -9,6 +9,19 @@ img {
     margin-left: 14%;
 }
 
+.userName {
+    margin-left: 3%;
+}
+
 .user {
     margin-left: 28%;
+    margin-top: 100px;
+}
+ 
+.review {
+    margin-left: 28%;
+}
+
+.reviewBtn {
+    margin-left: 38%;
 }
