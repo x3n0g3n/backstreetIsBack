@@ -1,6 +1,7 @@
 {{#each users as |user| }}
 <div class="user">
   <div>
+    {{!-- it would be really cool to get a picture of the user here --}}
     <h2 class="userName">{{{get_emoji}}} {{user.name}}</h2>
   </div>
   <div>
@@ -60,6 +61,7 @@
     <button class="btn btn-primary" type="submit">submit</button>
   </div>
 
+</div>
 
 </div>
 {{/each}}

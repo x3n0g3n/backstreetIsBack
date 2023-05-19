@@ -65,3 +65,6 @@ L controllers
 
             + delete reviews
 
+updated css background image. 
+also dont forget to import Jarallax library for the background image.
+npm install Jarallax
