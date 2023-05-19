@@ -3,9 +3,9 @@
   /**
    * Render the `main` element consistently in IE.
    */
-  main {
+  /* main {
     display: block;
-  }
+  } */
   
   /**
    * Correct the font size and margin on `h1` elements within `section` and
@@ -22,14 +22,14 @@
    * 1. Add the correct box sizing in Firefox.
    * 2. Show the overflow in Edge and IE.
    */
-  hr {
+  /* hr {
     box-sizing: content-box;
-    /* 1 */
+    
     height: 0;
-    /* 1 */
+    
     overflow: visible;
-    /* 2 */
-  }
+    
+  } */
   
   /**
    * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -37,9 +37,9 @@
    */
   pre {
     font-family: monospace, monospace;
-    /* 1 */
+    
     font-size: 1em;
-    /* 2 */
+    
   }
   
   /* Text-level semantics
@@ -47,9 +47,9 @@
   /**
    * Remove the gray background on active links in IE 10.
    */
-  a {
+  /* a {
     background-color: transparent;
-  }
+  } */
   
   /**
    * 1. Remove the bottom border in Chrome 57-
@@ -332,13 +332,15 @@
     min-height: 100%;
   }
   
-  body {
+/* 
+this removes text boxes color   */
+  /* body {
     margin: 0;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     font-size: 16px;
     color: #1a1a1a;
-  }
+  } */
   
   h1,
   h2,
@@ -398,7 +400,7 @@
     margin: 0;
   }
   
-  a {
+  /* a {
     color: #1b89bc;
     text-decoration: none;
   }
@@ -409,7 +411,7 @@
   }
   
   /* HEIGHT / WIDTH UTILS */
-  .w-100 {
+  /* .w-100 {
     width: 100%;
   }
   
@@ -431,7 +433,7 @@
   
   .min-100-vw {
     min-width: 100vw;
-  }
+  } */
   
   /* MARGIN/PADDING UTILS */
   /* Margin - all sides */
@@ -893,9 +895,9 @@
   .text-link {
     color: #1b89bc !important;
   }
-  
+   */
   /* BACKGROUND UTILS */
-  .bg-primary {
+  /* .bg-primary {
     background-color: #2d3e50 !important;
   }
   
@@ -926,9 +928,9 @@
   .bg-link {
     background-color: #1b89bc !important;
   }
-  
+   */
   /* DISPLAY */
-  .display-none {
+  /* .display-none {
     display: none !important;
   }
   
@@ -947,8 +949,8 @@
   .display-flex {
     display: flex !important;
   }
-  
-  .btn {
+   */
+  /* .btn {
     text-align: center;
     display: inline-block;
     padding: 0.5rem 1.2rem;
@@ -962,8 +964,8 @@
     background-color: #aeaeae;
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   }
-  
-  .btn:hover {
+   */
+  /* .btn:hover {
     background-color: #cecece;
   }
   
@@ -1063,8 +1065,8 @@
     border: 1px solid #1a1a1a;
     margin-bottom: 1rem;
   }
-  
-  .card .card-header {
+   */
+  /* .card .card-header {
     padding: 0.375rem;
     background-color: #2d3e50;
     color: #d9e9e8;
@@ -1101,7 +1103,7 @@
   form .form-textarea {
     display: block;
   }
-  
+   */
   form select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -1682,3 +1684,6 @@
       align-content: center;
     }
   }
+
+  /* Source: https://codepen.io/tommyho tommyho510@gmail.com */
+ 

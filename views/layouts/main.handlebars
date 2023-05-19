@@ -10,9 +10,50 @@
 </head>
 
 <body>
+  {{!-- following created by griffin below --}}
+<script src="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax-video.min.js"></script>
+
+<div class="container">
+  <div class="jarallax">
+    <div class="jarallax" data-jarallax data-video-src="https://www.youtube.com/watch?v=ab0TSkLe-E0" id="jarallax-bg">
+      <header class="p-3 text-white">
+        <div class="container bg-secondary bg-gradient">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"><i class="fa-brands fa-bootstrap fa-beat fa-lg"></i>
+            </a> &nbsp;
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 text-warning">Home</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+              
+              
+            </ul>
+
+            <div class="text-end">
+              <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="px-4 py-5 my-5 text-center">
+        <h1><i class="fa-brands fa-bootstrap"></i>Dream Bucket</h1>
+        <h2></h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4"></p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Login</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
   <header class="display-flex justify-space-between align-center p-2">
-    <h1>
-      User Registry
+    <h1> 
     </h1>
     <!-- Only display the logout button if the user is logged in -->
     {{#if logged_in}}
