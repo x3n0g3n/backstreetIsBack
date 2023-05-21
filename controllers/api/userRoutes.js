@@ -13,26 +13,25 @@ router.get('/', async (req, res)  => {
   }
 });
 
-// create a user trying to move to home routes
 
-// router.post('/register', async (req, res) => {
-//   try {
-//     const newUser = req.body;
-//     // hash the password from 'req.body' and save to newUser
-//     newUser.password = await bcrypt.hash(req.body.password, 10);
-//     // create the newUser with the hashed password and save to DB
-//     //salted 10 times
-//     const userData = await User.create(newUser);
-//     console.log(userData);
-
-//     res.status(200).json(userData);
-//     //200 means OK
-//   } catch (err) {
-//     res.status(400).json(err);
-//     //400 means bad request
-//   }
-// });
-
+// create a user
+router.post("/", async (req, res) => {
+  console.log("read")
+  try {
+    console.log(req.body)
+    const userData = await User.create(req.body);
+    console.log(userData)
+    req.session.save(()=> {
+      req.session.user_id = userData.id;
+      req.session.logged_in = true;
+      console.log("session")
+      
+    });
+    console.log("response area")
+  res.status(200).json(userData);
+  } catch (error) {
+  }
+});
 router.post('/login', async (req, res) => {
   try {
     // Find the user who matches the posted e-mail address
