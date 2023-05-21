@@ -1,6 +1,6 @@
 Use Node.js and Express.js to create a RESTful API. uses node and express  ---------- 
 
-Use Handlebars.js as the templating engine. 
+Use Handlebars.js as the templating engine. ---------
 
 Use MySQL and the Sequelize ORM for the database. sql is conected with schema -----------
 
@@ -16,7 +16,7 @@ Be responsive.
 
 Be interactive (i.e., accept and respond to user input).
 
-Have a folder structure that meets the MVC paradigm. has good folder structure
+Have a folder structure that meets the MVC paradigm. has good folder structure --------
 
 Include authentication (express-session and cookies). has sess in server.js line 19 ----------
 
@@ -29,4 +29,4 @@ Have a quality README (with unique name, description, technologies used, screens
 Finally, you must add your project to the portfolio that you created in Module 2. 
 
 
-6 / 15
+8 / 15

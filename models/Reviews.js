@@ -12,37 +12,34 @@ Reviews.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    user_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'user',
-        key: 'id',
-      },
+    name: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
     activity: {
       type: DataTypes.STRING,
+      allowNull: false,
     },
     location: {
       type: DataTypes.STRING,
+      allowNull: false,
     },
     review: {
       type: DataTypes.STRING,
       allowNull: false,
-      defaultValue: ('no review submitted'),
+      defaultValue: 'no review submitted',
     },
-    rating: { 
-        type: DataTypes.ENUM('terrible','decent','good','wonderful','amazing'),
-       allowNull:false,
+    rating: {
+      type: DataTypes.ENUM('terrible', 'decent', 'good', 'wonderful', 'amazing'),
+      allowNull: false,
     },
-
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'Reviews',
+    modelName: 'reviews',
   }
 );
-
 module.exports = Reviews;
