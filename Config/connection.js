@@ -7,9 +7,9 @@ if (process.env.JAWSDB_URL) {
   sequelize = new Sequelize(process.env.JAWSDB_URL);
 } else {
   sequelize = new Sequelize(
-    DB_NAME='bucket_db',
-    DB_USER='root',
-    DB_PASSWORD='password',
+    process.env.DB_NAME='bucket_db',
+    process.env.DB_USER='root',
+    process.env.DB_PASSWORD='password',
 
 
     {
