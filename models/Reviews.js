@@ -12,10 +12,7 @@ Reviews.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
+   
     activity: {
       type: DataTypes.STRING,
       allowNull: false,

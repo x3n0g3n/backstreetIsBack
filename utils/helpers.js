@@ -12,11 +12,11 @@ module.exports = {
     //it would be cool to have a user photo attached to this below. 
     // this should return a photo associated with the user
     if (randomNum > 0.7) {
-      return `<span for="img" aria-label="lightbulb">💡</span>`;
+      return `<span for="img" aria-label="crossbones">☠</span>`;
     } else if (randomNum > 0.4) {
-      return `<span for="img" aria-label="laptop">💻</span>`;
+      return `<span for="img" aria-label="ghost">👻</span>`;
     } else {
-      return `<span for="img" aria-label="gear">⚙️</span>`;
+      return `<span for="img" aria-label="skull">💀</span>`;
     }
   },
 };

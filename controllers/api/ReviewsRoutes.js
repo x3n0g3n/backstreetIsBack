@@ -24,6 +24,18 @@ router.post('/', withAuth, async (req,res) => {
     }
 });
 // edit review (needs to be logged on)
+router.get('/', withAuth, async (req,res) => {
+  try {
+      const newReview = await Reviews.create({
+          ...req.body,
+          user_id: req.session.user_id
+      })
+      res.status(200).json(newReview);
+  } catch (err) {
+      res.status(500).json(err);
+  }
+});
+
 // delete review (needs to be logged on)
 
 router.delete('/:id', withAuth, async (req, res) => {
