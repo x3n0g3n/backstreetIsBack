@@ -14,14 +14,19 @@ router.get('/', async (req, res)  => {
 
 // create a user
 router.post("/", async (req, res) => {
+  console.log("read")
   try {
-  const userData = await User.create(req.body);
-  req.session.save(()=> {
-    req.session.user_id = userData.id;
-    req.session.logged_in = true;
-
-    req.status(200).json(userData);
-  });
+    console.log(req.body)
+    const userData = await User.create(req.body);
+    console.log(userData)
+    req.session.save(()=> {
+      req.session.user_id = userData.id;
+      req.session.logged_in = true;
+      console.log("session")
+      
+    });
+    console.log("response area")
+  res.status(200).json(userData);
   } catch (error) {
   }
 });
