@@ -1,15 +1,17 @@
-## project 2: Death Wish Bucket List
+
+## project 2: Death Wish
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-The template engine for this Bucket-Bucket Node.js RESTful API application with Handlebars.js, the database is MySQL, and Sequelize ORM is used for data modeling and in this case, creating a Bucket list with the ability to review topics on ones list. The application provides express-session and cookie-based authentication, as well as GET and POST routes for obtaining and adding new data. Environment variables are used to protect sensitive data and API keys.
+The engine for this Death Wish app, Node.js RESTful API application with Handlebars.js, the database is MySQL, and Sequelize ORM is used for data modeling and in this case, creating a Death Wish list with the ability to review topics on ones list. The application provides express-session and cookie-based authentication, as well as GET and POST routes for obtaining and adding new data. Environment variables are used to protect sensitive data and API keys.
 
 ## Motivation
-A strong, secure, and dependable RESTful API that can be utilized by a variety of web and mobile applications was the driving force behind the development of this service! The program adheres to best practices and industry standards and offers developers a flexible design that makes it simple to integrate it into their applications.
+Death Wish has a strong, secure, and dependable RESTful API that can be utilized by a variety of web and mobile applications was the driving force behind the development of this service! The program adheres to best practices and industry standards and offers developers a flexible design that makes it simple to integrate it into their applications.
 
 ## Design Process
 
-The Model-View-Controller (MVC) design approach was used to create the application. The model represents the data structure and business logic, and the view represents the user interface. The controller controls communication between these two components. The application was meant to be responsive and entertaining to provide users the best experience possible.
+This app was designed by first creating the backend. The Model-View-Controller (MVC) design approach was used to create the application. The model represents the data structure and business logic, and the view represents the user interface. The controller controls communication between these two components. The application was meant to be responsive and entertaining to provide users the best experience possible. The "bucket list" type of application was chosen because it is a popular topic that many people can relate to. The application's design is simple and intuitive, allowing users to quickly and easily add and review items on their list.
 
 ## Technologies Used
 
@@ -24,6 +26,7 @@ The following technologies were used in the development of this application:
 -express-session: A middleware that provides session support for Express.js applications.
 -cookies: A middleware that provides cookie support for Express.js applications.
 -dotenv: A zero-dependency module that loads environment variables from a .env file into process.env.
+-jarallax: A JavaScript library that makes it simple to create parallax scrolling effects.
 ```
 
 ## Acceptance Criteria
