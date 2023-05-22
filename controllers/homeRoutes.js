@@ -42,6 +42,22 @@ router.get('/register', (req, res) => {
   res.render('register');
 });
 
+  //the review page
+  router.get('/reviews/:id', withAuth, async function(req, res) {
+    try {
+      // Get the review ID from the request parameters
+      const reviewId = req.params.id;
+  
+      // Render the 'ReviewsPage' view with the necessary data
+      res.render('ReviewsPage', { reviewId });
+    } catch (error) {
+      // Handle any errors that occur during the process
+      console.error(error);
+      res.status(500).json(err);
+    }
+  });
+  
+
 // router.post('/register', async (req, res) => {
 //   try {
 //     const newUser = req.body;
