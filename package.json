@@ -232,5 +232,6 @@
     "seed": "node seeds/seeds.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
